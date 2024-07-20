@@ -26,7 +26,7 @@ def dataconveter():
         metadata = {"product_name": entry['product_name']}
         doc = Document(page_content=entry['review'], metadata=metadata)
         docs.append(doc)
-    print
+    print(docs)
     return docs
 
 if __name__ == '__main__':
